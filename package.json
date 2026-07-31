@@ -1,0 +1,17 @@
+{
+  "name": "ego-whatsapp-webhook",
+  "version": "1.0.0",
+  "description": "WhatsApp auto-reply webhook for Evren Global Organics (Twilio)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "twilio": "^5.3.0",
+    "body-parser": "^1.20.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
