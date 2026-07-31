@@ -5,7 +5,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const twilio = require('twilio');
 
-const app = express();
+const app = express();app.set('trust proxy', true);
 app.use(bodyParser.urlencoded({ extended: false }));
 
 const { MessagingResponse } = twilio.twiml;
